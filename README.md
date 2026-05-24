@@ -449,7 +449,7 @@ Most importantly, this assignment helped me connect my .NET development backgrou
 
 <div align="center">
 
-# 🧠 Neural Network Visualization Portfolio Artifact
+# 🧠 Neural Network Visualization Portfolio Artifact -2
 
 ## 🤖 TensorFlow Playground & Neural Network Learning Analysis
 
@@ -821,49 +821,17 @@ The model detected patterns more effectively but became more computationally exp
 
 ## 📌 Screenshot 1 — TensorFlow Playground Interface
 
-> Insert screenshot here.
+
 
 ---
 
 ## 📌 Screenshot 2 — Basic Neural Network Model
 
-> Insert screenshot here.
+<img width="1797" height="866" alt="image" src="https://github.com/user-attachments/assets/d0402c64-35cd-4072-85fd-eaffd653a0b2" />
 
 ---
 
-## 📌 Screenshot 3 — Multiple Hidden Layers Visualization
 
-> Insert screenshot here.
-
----
-
-## 📌 Screenshot 4 — Loss Reduction During Training
-
-> Insert screenshot here.
-
----
-
-## 📌 Screenshot 5 — High Noise Dataset Experiment
-
-> Insert screenshot here.
-
----
-
-## 📌 Screenshot 6 — Final Trained Neural Network
-
-> Insert screenshot here.
-
----
-
-## 📌 Screenshot 7 — TensorFlow Embedding Projector
-
-> Insert screenshot here.
-
----
-
-## 📌 Screenshot 8 — Word Embedding Visualization
-
-> Insert screenshot here.
 
 ---
 
