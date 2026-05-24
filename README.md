@@ -821,9 +821,13 @@ The model detected patterns more effectively but became more computationally exp
 
 ## 📌 Screenshot 1 — TensorFlow Playground Interface
 
+<img width="1822" height="876" alt="image" src="https://github.com/user-attachments/assets/06a6dc76-3d0e-4fef-9738-23b584e023dd" />
+---
 
 
 ---
+
+
 
 ## 📌 Screenshot 2 — Basic Neural Network Model
 
