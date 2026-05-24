@@ -445,277 +445,606 @@ Most importantly, this assignment helped me connect my .NET development backgrou
 
 
 
-
-
 ---
-
-# 🧠 Artifact 2: Neural Network Playground & Visualization
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Neural%20Networks-Deep%20Learning-purple?style=for-the-badge"/>
+# 🧠 Neural Network Visualization Portfolio Artifact
+
+## 🤖 TensorFlow Playground & Neural Network Learning Analysis
+
+<img src="https://img.shields.io/badge/Artificial-Intelligence-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Neural-Networks-blue?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/TensorFlow-Playground-orange?style=for-the-badge&logo=tensorflow"/>
-<img src="https://img.shields.io/badge/AI-Visualization-blue?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Machine%20Learning-Model%20Training-green?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Deep-Learning-red?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Machine-Learning-green?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI-Visualization-cyan?style=for-the-badge"/>
 
-<br><br>
+---
 
-<img src="https://miro.medium.com/v2/resize:fit:1200/1*bhFifratH9DjKqMBTeQG5A.gif" width="750"/>
+# 🌟 Welcome to My Neural Network Visualization Artifact
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDVsd2Y5b2k3cnV1YTR0dDU0d3p2ZXZ0dGRmNWh2c3M4bW1paTQxNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/coxQHKASG60HrHtvkt/giphy.gif" width="750"/>
 
 </div>
 
 ---
 
-# 📘 Introduction
+# 📖 Introduction
 
-This second portfolio artifact focuses on **neural network visualization** using the **Neural Network Playground**.  
-The purpose of this artifact is to understand how neural networks learn by experimenting with data types, noise levels, hidden layers, neurons, weights, activation functions, loss functions, and optimization algorithms.
+This portfolio artifact focuses on understanding and visualizing how neural networks function using the **TensorFlow Playground** and **TensorFlow Embedding Projector**.
 
-Neural networks are inspired by the human brain, but they operate through mathematical computation. They learn by adjusting internal values called weights, reducing errors through a loss function, and improving predictions through optimization algorithms.
+Neural networks are one of the most important technologies in Artificial Intelligence and Machine Learning. They are designed to process information similarly to how the human brain processes patterns and relationships.
+
+This project explores:
+
+- 🧠 Neural network architecture
+- ⚙️ Layers and neurons
+- 🔗 Weights and activation functions
+- 📉 Loss functions and optimization algorithms
+- 📊 Neural network training behavior
+- 🎨 AI visualization techniques
+
+The purpose of this project was to gain practical experience by experimenting with different neural network configurations and observing how changes impact:
+
+✅ Accuracy  
+✅ Complexity  
+✅ Training speed  
+✅ Model performance  
 
 ---
 
-# 🎯 Objective
-
-The main goals of this artifact are:
-
-✅ Understand the structure of neural networks  
-✅ Explain layers, neurons, weights, activation functions, loss functions, and optimization algorithms  
-✅ Visualize how data flows through a neural network  
-✅ Experiment with noise, features, and hidden layers  
-✅ Observe how training affects model performance  
-✅ Add a professional AI artifact to my portfolio  
-
----
-
-# 🏗️ Neural Network Architecture Diagram
+# 🎯 Artifact Objectives
 
 <div align="center">
+
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="130"/>
+
+</div>
+
+---
+
+## 🚀 Primary Goals
+
+✅ Understand neural network architecture  
+✅ Learn how layers and neurons process information  
+✅ Explore activation functions and optimizers  
+✅ Analyze loss reduction during training  
+✅ Visualize AI learning behavior interactively  
+✅ Observe the impact of noise and hidden layers  
+✅ Build a professional AI portfolio artifact  
+✅ Improve technical communication and documentation skills  
+
+---
+
+# 🧠 Neural Network Architecture
+
+<div align="center">
+
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*3fA77_mLNiJTSgZFhYnU0Q.png" width="700"/>
+
+</div>
+
+---
+
+# 📊 Neural Network Flow
 
 ```mermaid
 flowchart LR
-    A[📥 Input Layer<br>Receives Data] --> B[🧠 Hidden Layer 1<br>Pattern Detection]
-    B --> C[🧠 Hidden Layer 2<br>Feature Learning]
-    C --> D[📤 Output Layer<br>Final Prediction]
-    D --> E[📉 Loss Function<br>Measures Error]
-    E --> F[⚙️ Optimizer<br>Updates Weights]
+    A[📥 Input Layer] --> B[🧠 Hidden Layer 1]
+    B --> C[🧠 Hidden Layer 2]
+    C --> D[📤 Output Layer]
+    D --> E[📉 Loss Function]
+    E --> F[⚙️ Optimization Algorithm]
     F --> B
+```
 
-🧩 Neural Network Components
-🔹 1. Layers
+---
 
-Layers are groups of neurons that process information step by step.
+# 🧩 Neural Network Components
 
-Types of Layers
-Layer Type	Function
-📥 Input Layer	Receives the original data
-🧠 Hidden Layers	Learn patterns and relationships
-📤 Output Layer	Produces the final prediction
+<div align="center">
 
-More hidden layers can help the model learn complex patterns, but too many layers can also make the model harder to train.
+<img src="https://cdn-icons-png.flaticon.com/512/2103/2103832.png" width="120"/>
 
-🔹 2. Neurons
+</div>
 
-Neurons are the basic processing units of a neural network.
+---
+
+# 🔹 1. Layers
+
+Layers are groups of neurons that process information step-by-step inside a neural network.
+
+## 📌 Types of Layers
+
+| 🧠 Layer Type | 🚀 Function |
+|---|---|
+| 📥 Input Layer | Receives original input data |
+| 🧠 Hidden Layers | Detect patterns and relationships |
+| 📤 Output Layer | Produces final predictions |
+
+### 🌟 Importance of Layers
+
+- Layers help neural networks gradually understand complex information.
+- Each layer extracts more meaningful patterns from the data.
+- Hidden layers increase the learning capability of the network.
+- More layers can improve accuracy for complex problems.
+
+---
+
+# 🔹 2. Neurons
+
+<div align="center">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Neuron.svg/1200px-Neuron.svg.png" width="500"/>
+
+</div>
+
+Neurons are the smallest computational units inside a neural network.
 
 Each neuron:
 
-✅ Receives inputs
-✅ Multiplies inputs by weights
-✅ Adds a bias value
-✅ Applies an activation function
-✅ Sends output to the next layer
+✅ Receives data inputs  
+✅ Performs calculations  
+✅ Applies activation functions  
+✅ Produces outputs  
+✅ Sends information to the next layer  
 
-A neuron is like a small decision-making unit inside the model.
+### 🌟 Importance of Neurons
 
-🔹 3. Weights
+- Neurons identify relationships between inputs.
+- Multiple neurons working together allow pattern recognition.
+- Neural networks become smarter as neurons learn through training.
 
-Weights control how important each input is.
+---
 
-If a weight is large, that input has a stronger influence on the prediction.
-If a weight is small, that input has less influence.
+# 🔹 3. Weights
 
-During training, the neural network changes the weights again and again to reduce errors.
+<div align="center">
 
-🔹 4. Activation Functions
+<img src="https://miro.medium.com/v2/resize:fit:1200/1*1fMsuQxJzQ4J5M7H9K5P6A.png" width="600"/>
 
-Activation functions help neurons decide what information should pass forward.
+</div>
 
-Common Activation Functions
-Activation Function	Purpose
-ReLU	Fast and commonly used
-Sigmoid	Useful for probability-like outputs
-Tanh	Helps handle positive and negative values
-Linear	Used for simple relationships
+Weights determine how strongly one neuron influences another.
 
-Activation functions allow neural networks to learn complex, nonlinear patterns.
+### 📌 Importance of Weights
 
-🔹 5. Loss Functions
+✅ Strong weights increase influence  
+✅ Weak weights reduce influence  
+✅ Weights are adjusted during training  
+✅ Learning occurs through weight optimization  
 
-A loss function measures how wrong the model’s prediction is.
+### 🌟 Why Weights Matter
 
-If the loss is high, the model is performing poorly.
-If the loss is low, the model is improving.
+Weights are one of the most important learning mechanisms in neural networks.  
+During training, the model continuously updates weights to reduce errors and improve predictions.
 
-The model’s goal is to reduce the loss during training.
+---
 
-🔹 6. Optimization Algorithms
+# 🔹 4. Activation Functions
 
-Optimization algorithms help the network learn from mistakes.
+<div align="center">
 
-They adjust weights to reduce the loss.
+<img src="https://miro.medium.com/v2/resize:fit:1200/1*GUB9j5sp3h6KFa7zM0W4ug.png" width="650"/>
 
-Examples
-Optimizer	Role
-Gradient Descent	Updates weights step by step
-Adam	Faster and more adaptive optimizer
-RMSProp	Helps improve learning stability
-🧪 Neural Network Playground Experiments
-Experiment 1: Simple Dataset
+</div>
 
-I first tested a simple dataset with low noise.
+Activation functions decide whether neurons should activate and pass information forward.
 
-Observation
+## 📌 Common Activation Functions
 
-The model learned quickly because the data was easy to separate.
+| ⚡ Function | 🚀 Purpose |
+|---|---|
+| ReLU | Fast and widely used |
+| Sigmoid | Produces probability-like outputs |
+| Tanh | Handles positive and negative values |
+| Linear | Used for simple relationships |
 
-Result
+### 🌟 Importance of Activation Functions
 
-✅ Faster training
-✅ Lower loss
-✅ Clear decision boundary
+- Allow nonlinear learning
+- Improve decision-making ability
+- Help networks solve complex problems
+- Increase model flexibility
 
-Experiment 2: Higher Noise Level
+---
 
-Next, I increased the noise level.
+# 🔹 5. Loss Functions
 
-Observation
+<div align="center">
 
-The model took longer to train because the data became more confusing.
+<img src="https://miro.medium.com/v2/resize:fit:1200/1*ZQ7g3wJb5eY4FJ9L6LxVow.png" width="650"/>
 
-Result
+</div>
 
-⚠️ Slower learning
-⚠️ Higher loss
-⚠️ Less accurate predictions
+Loss functions measure how incorrect the model’s predictions are.
 
-Experiment 3: More Hidden Layers
+### 📌 Purpose of Loss Functions
 
-I added more hidden layers to the neural network.
+✅ Evaluate prediction errors  
+✅ Guide model learning  
+✅ Improve network accuracy  
+✅ Help reduce mistakes during training  
 
-Observation
+### 🌟 Common Loss Functions
 
-The model became more powerful and could learn complex patterns, but training became slower.
+| 📉 Loss Function | 🚀 Usage |
+|---|---|
+| Mean Squared Error | Regression problems |
+| Cross Entropy Loss | Classification problems |
+| Binary Cross Entropy | Binary predictions |
 
-Result
+---
 
-✅ Better learning for complex data
-⚠️ More training time
-⚠️ Higher complexity
+# 🔹 6. Optimization Algorithms
 
-Experiment 4: More Neurons
+<div align="center">
 
-I increased the number of neurons in the hidden layers.
+<img src="https://miro.medium.com/v2/resize:fit:1200/1*Qw4ev1cqX0w3v8M4Y7f6kw.gif" width="650"/>
 
-Observation
+</div>
 
-The model became better at recognizing patterns, but too many neurons made the model more complex.
+Optimization algorithms improve neural network performance by adjusting weights.
 
-Result
+## 📌 Common Optimizers
 
-✅ Improved pattern learning
-⚠️ Risk of overfitting
-⚠️ More computation required
+| ⚙️ Optimizer | 🚀 Role |
+|---|---|
+| Gradient Descent | Reduces errors step-by-step |
+| Adam Optimizer | Faster adaptive learning |
+| RMSProp | Stabilizes learning performance |
 
-🖼️ Screenshots to Add
+### 🌟 Importance of Optimization
 
-Add your screenshots under these headings:
+Optimization algorithms:
+- Improve model accuracy
+- Speed up training
+- Reduce prediction errors
+- Help networks learn efficiently
 
-📌 Screenshot 1: Neural Network Playground Interface
+---
 
-Insert screenshot here.
+# 🧪 Neural Network Playground Experiments
 
-📌 Screenshot 2: Simple Neural Network Model
+<div align="center">
 
-Insert screenshot here.
+<img src="https://cdn-icons-png.flaticon.com/512/2620/2620971.png" width="120"/>
 
-📌 Screenshot 3: Model with Multiple Hidden Layers
+</div>
 
-Insert screenshot here.
+---
 
-📌 Screenshot 4: Loss Graph During Training
+# 🔬 Experiment 1 — Simple Dataset
 
-Insert screenshot here.
+<div align="center">
 
-📌 Screenshot 5: High Noise Dataset Experiment
+<img src="https://playground.tensorflow.org/preview.png" width="700"/>
 
-Insert screenshot here.
+</div>
 
-📌 Screenshot 6: Final Trained Model
+Tested a neural network using a simple dataset with low noise.
 
-Insert screenshot here.
+## 📌 Observation
 
-📊 Key Learning Insights
+The model learned patterns quickly because the data was easy to classify.
 
-Through this artifact, I learned that:
+## ✅ Results
 
-✅ Neural networks learn by reducing error
-✅ Layers help process data step by step
-✅ Neurons perform mathematical calculations
-✅ Weights determine the strength of connections
-✅ Activation functions allow complex learning
-✅ Loss functions measure prediction mistakes
-✅ Optimization algorithms improve performance
-✅ More layers can improve learning but also increase complexity
-✅ Noise makes training harder
-✅ Visualization makes neural networks easier to understand
+- Faster training
+- Lower loss
+- Higher accuracy
+- Clear decision boundaries
 
-🛠️ Tools and Technologies Used
-<div align="center"> <img src="https://skillicons.dev/icons?i=tensorflow,github,vscode,html,css" /> </div>
-Tool	Purpose
-TensorFlow Playground	Neural network training and visualization
-GitHub	Portfolio hosting
-Markdown	Documentation formatting
-VS Code	Editing portfolio content
-Course Materials	Neural network learning support
-💎 Value Proposition
+---
+
+# 🔬 Experiment 2 — High Noise Dataset
+
+<div align="center">
+
+<img src="https://miro.medium.com/v2/resize:fit:1200/1*Y6K4T3W9xA5v8H5L0z3fMg.png" width="650"/>
+
+</div>
+
+Increased dataset noise levels.
+
+## 📌 Observation
+
+The model struggled more because noisy data created confusion during learning.
+
+## ⚠️ Results
+
+- Slower convergence
+- Higher loss
+- Lower prediction accuracy
+- Increased training complexity
+
+---
+
+# 🔬 Experiment 3 — Additional Hidden Layers
+
+<div align="center">
+
+<img src="https://miro.medium.com/v2/resize:fit:1200/1*e9VzlCMn6Wl6Vx8A4w6X9Q.png" width="650"/>
+
+</div>
+
+Added more hidden layers to increase network depth.
+
+## 📌 Observation
+
+The model became more capable of learning complex relationships.
+
+## ✅ Results
+
+- Improved learning capability
+- Better pattern recognition
+- Increased computational complexity
+- Longer training time
+
+---
+
+# 🔬 Experiment 4 — More Neurons
+
+<div align="center">
+
+<img src="https://miro.medium.com/v2/resize:fit:1200/1*8U0B7K5M9R6L4Q5Y3W2P8A.png" width="650"/>
+
+</div>
+
+Increased the number of neurons inside hidden layers.
+
+## 📌 Observation
+
+The model detected patterns more effectively but became more computationally expensive.
+
+## ✅ Results
+
+- Better feature learning
+- Higher flexibility
+- Risk of overfitting
+- More resource usage
+
+---
+
+# 🖼️ Visual Presentation Screenshots
+
+<div align="center">
+
+<img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" width="120"/>
+
+</div>
+
+---
+
+# 📷 Add Your TensorFlow Screenshots Here
+
+## 📌 Screenshot 1 — TensorFlow Playground Interface
+
+> Insert screenshot here.
+
+---
+
+## 📌 Screenshot 2 — Basic Neural Network Model
+
+> Insert screenshot here.
+
+---
+
+## 📌 Screenshot 3 — Multiple Hidden Layers Visualization
+
+> Insert screenshot here.
+
+---
+
+## 📌 Screenshot 4 — Loss Reduction During Training
+
+> Insert screenshot here.
+
+---
+
+## 📌 Screenshot 5 — High Noise Dataset Experiment
+
+> Insert screenshot here.
+
+---
+
+## 📌 Screenshot 6 — Final Trained Neural Network
+
+> Insert screenshot here.
+
+---
+
+## 📌 Screenshot 7 — TensorFlow Embedding Projector
+
+> Insert screenshot here.
+
+---
+
+## 📌 Screenshot 8 — Word Embedding Visualization
+
+> Insert screenshot here.
+
+---
+
+# 📊 Key Insights Learned
+
+<div align="center">
+
+<img src="https://cdn-icons-png.flaticon.com/512/4140/4140047.png" width="120"/>
+
+</div>
+
+---
+
+Through this project, I learned:
+
+✅ Neural networks improve through optimization  
+✅ Layers refine information progressively  
+✅ Weights control neuron influence  
+✅ Activation functions enable nonlinear learning  
+✅ Loss functions guide model improvement  
+✅ Noise negatively impacts learning performance  
+✅ More layers increase model complexity  
+✅ Visualization tools simplify AI understanding  
+✅ Neural networks learn through repeated adjustments  
+
+---
+
+# 🌍 Real-World Applications of Neural Networks
+
+<div align="center">
+
+<img src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png" width="120"/>
+
+</div>
+
+---
+
+| 🌎 Application Area | 🚀 Example |
+|---|---|
+| 👁️ Computer Vision | Face Recognition |
+| 🗣️ NLP | Chatbots & Translation |
+| 🚗 Autonomous Vehicles | Self-Driving Cars |
+| 🏥 Healthcare | Disease Prediction |
+| 💳 Finance | Fraud Detection |
+| 🎵 Recommendation Systems | Netflix & Spotify Suggestions |
+
+---
+
+# 🛠️ Tools and Technologies Used
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=tensorflow,github,vscode,git,html,css" />
+
+</div>
+
+---
+
+| 💻 Technology | 🚀 Purpose |
+|---|---|
+| TensorFlow Playground | Neural Network Simulation |
+| TensorFlow Embedding Projector | Embedding Visualization |
+| GitHub | Portfolio Hosting |
+| Markdown | Professional Documentation |
+| VS Code | Editing |
+| AI/ML Educational Resources | Research and Learning |
+
+---
+
+# 💎 Value Proposition
 
 This artifact demonstrates my ability to:
 
-✨ Understand neural network fundamentals
-✨ Visualize AI model training
-✨ Explain technical concepts clearly
-✨ Analyze model behavior
-✨ Connect theory with hands-on practice
-✨ Present professional portfolio documentation
+✨ Understand deep learning fundamentals  
+✨ Analyze AI model behavior  
+✨ Visualize neural network training  
+✨ Explain technical AI concepts clearly  
+✨ Build professional portfolio documentation  
+✨ Connect theoretical concepts with practical experimentation  
 
-🌟 Unique Value
+---
 
-This artifact is valuable because it transforms a complex technical topic into a clear visual explanation.
+# 🌟 Unique Value
 
-Instead of only describing neural networks in theory, this project shows how models actually learn through experimentation, training, error reduction, and visual decision boundaries.
-
-📚 Reflection
-
-Creating this artifact helped me understand neural networks in a deeper and more practical way. Before using the Neural Network Playground, I understood neural networks mostly as a theory. After experimenting with layers, neurons, noise levels, activation functions, and training behavior, I was able to see how each component affects model performance.
-
-I learned that neural networks improve by continuously adjusting weights and reducing loss. I also observed that increasing layers and neurons can make a model more powerful, but it can also increase complexity and training time. Noise in the dataset made the model work harder and showed me why clean data is important in machine learning.
-
-This experience helped me connect classroom concepts with real visual examples. It also improved my ability to explain artificial intelligence concepts in a professional and understandable way.
-
-🧾 Summary
-
-Neural network visualization is important because it helps explain how artificial intelligence models learn from data. By using the Neural Network Playground, I was able to observe how inputs move through layers, how neurons process information, how weights change during training, and how loss decreases as the model improves.
-
-This artifact strengthened my understanding of deep learning fundamentals and helped me build a professional AI portfolio entry.
-
-📚 References
-Neural Network Playground
-TensorFlow Learning Resources
-Course Materials on Neural Networks
-Machine Learning Educational Resources
 <div align="center">
-⭐ Thank You for Viewing My Second Artifact ⭐
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="500"/>
-🚀 “Visualizing neural networks makes artificial intelligence easier to understand.”
+
+<img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" width="120"/>
+
 </div>
+
+This artifact is unique because it combines:
+
+✅ Neural Network Theory  
+✅ Interactive AI Visualization  
+✅ Real-Time Training Analysis  
+✅ Technical Documentation  
+✅ Professional Presentation  
+✅ Practical Machine Learning Learning Experience  
+
+---
+
+# 📚 Reflection
+
+Working on this artifact significantly improved my understanding of neural networks and Artificial Intelligence systems.
+
+By experimenting with the TensorFlow Playground, I observed how:
+- Layers process information
+- Neurons perform calculations
+- Weights change during learning
+- Activation functions affect training
+- Loss functions measure prediction errors
+- Optimization algorithms improve model performance
+
+This assignment improved my:
+- AI knowledge
+- Research abilities
+- Technical communication
+- Visualization understanding
+- Portfolio development skills
+
+Most importantly, this artifact helped me connect theoretical classroom learning with practical neural network experimentation.
+
+---
+
+# 🧾 Summary
+
+Neural network visualization is extremely important because it allows learners to understand how Artificial Intelligence systems process information internally.
+
+This project demonstrated:
+- Neural network architecture
+- Learning behavior
+- Error reduction
+- Optimization processes
+- Pattern recognition
+- AI visualization techniques
+
+Using TensorFlow Playground and Embedding Projector helped transform difficult AI concepts into understandable visual learning experiences.
+
+---
+
+# 🌐 Future Learning Goals
+
+<div align="center">
+
+<img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png" width="120"/>
+
+</div>
+
+---
+
+## 🚀 Areas I Plan to Learn Further
+
+- Deep Neural Networks
+- CNN Architectures
+- Transformer Models
+- Generative AI
+- Explainable AI
+- AI Model Deployment
+- Large Language Models
+- Cloud AI Services
+
+---
+
+# 📚 References
+
+- TensorFlow Playground  
+- TensorFlow Embedding Projector  
+- Neural Network Educational Resources  
+- TensorFlow Documentation  
+- AI & Machine Learning Course Materials  
+
+---
+
+<div align="center">
+
+# ⭐ Thank You for Viewing My Neural Network Artifact ⭐
+
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="550"/>
+
+## 🚀 “Artificial Intelligence becomes meaningful when humans understand how it learns.”
+
+</div>
+
+---
