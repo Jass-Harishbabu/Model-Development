@@ -1025,7 +1025,7 @@ Using TensorFlow Playground and Embedding Projector helped transform difficult A
 
 <div align="center">
 
-# 🚀 Generative AI Training Pipeline & Infrastructure Analysis
+# 🚀 Generative AI Training Pipeline & Infrastructure Analysis- ARTIFACT-3
 
 ## 🤖 Understanding How GPT-4, Claude, Gemini, and LLaMA Are Trained
 
