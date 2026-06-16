@@ -1525,3 +1525,488 @@ This artifact shows my ability to bridge software development, AI concepts, mode
 
 
 
+
+
+<div align="center">
+
+# 🤖 Pre-Trained AI Model Decision Matrix
+
+## 📊 Model Selection | Explainability | Accuracy | Speed | Performance Trade-Offs
+
+<img src="https://img.shields.io/badge/Artificial%20Intelligence-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Machine%20Learning-red?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Model%20Selection-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Explainable%20AI-green?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Decision%20Matrix-orange?style=for-the-badge"/>
+
+---
+
+# 🌟 Professional Portfolio Artifact
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWk1dXJwcDgyN3ExaHZ2bnJzNm9qb2xobzBkYmZyN2JwejZxYzZ3dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oKIPEqDGUULpEU0aQ/giphy.gif" width="650"/>
+
+</div>
+
+---
+
+# 📖 Introduction
+
+This portfolio artifact presents a professional **decision matrix for comparing pre-trained Artificial Intelligence models** across multiple domains, including **Natural Language Processing, Generative AI, Computer Vision, and Tabular Data**.
+
+The main goal of this artifact is to show how AI practitioners evaluate different pre-trained models before selecting one for a real-world project. In modern AI development, choosing a model is not only about selecting the most accurate option. A strong model selection process must balance:
+
+* ✅ Model size
+* ✅ Accuracy
+* ✅ Inference speed
+* ✅ Computational cost
+* ✅ Ease of deployment
+* ✅ Explainability
+* ✅ Domain suitability
+
+This artifact demonstrates my ability to analyze technical trade-offs and present AI model selection decisions in a clear, professional, and visually organized format.
+
+---
+
+# 🎯 Objective
+
+The objective of this project is to compare multiple pre-trained AI models and understand how each model performs under different evaluation criteria.
+
+## Key Objectives
+
+* Compare pre-trained models across different AI domains
+* Analyze trade-offs between accuracy, speed, size, and explainability
+* Create a professional decision matrix for model selection
+* Identify the best model choices for practical business and technical use cases
+* Demonstrate AI/ML research, evaluation, and documentation skills
+* Add a visually strong artifact to my professional portfolio
+
+---
+
+# 🧠 Models Selected for Comparison
+
+This artifact compares models from different AI domains to show a broad understanding of modern AI systems.
+
+| Domain              | Model                             | Primary Use Case                                                |
+| ------------------- | --------------------------------- | --------------------------------------------------------------- |
+| 🗣️ NLP             | BERT Base                         | Text classification, question answering, sentiment analysis     |
+| 💬 Generative AI    | DistilBERT / GPT-style comparison | Lightweight language understanding and generative AI evaluation |
+| 👁️ Computer Vision | MobileNetV2                       | Mobile and edge-based image classification                      |
+| 🖼️ Computer Vision | EfficientNet                      | High-accuracy image classification                              |
+| 📊 Tabular Data     | TabNet / CatBoost                 | Structured business data prediction and explainability          |
+
+---
+
+# ⚙️ Project Development Process
+
+<div align="center">
+
+<img src="https://cdn-icons-png.flaticon.com/512/2620/2620971.png" width="120"/>
+
+</div>
+
+## 🔹 Step 1 — Research Pre-Trained Models
+
+I reviewed pre-trained models from different AI domains, including NLP, Generative AI, Computer Vision, and Tabular Data.
+
+The selected models represent different performance goals such as:
+
+* High accuracy
+* Lightweight deployment
+* Faster inference
+* Strong explainability
+* Practical enterprise usage
+
+---
+
+## 🔹 Step 2 — Collect Model Characteristics
+
+For each model, I evaluated important selection criteria:
+
+* Number of parameters
+* Approximate model size
+* Benchmark performance
+* Inference speed
+* Explainability level
+* Deployment suitability
+
+---
+
+## 🔹 Step 3 — Analyze Trade-Offs
+
+Each model was analyzed based on the balance between performance and practicality.
+
+For example:
+
+* Larger models may provide better performance but require more compute resources.
+* Smaller models may be faster and easier to deploy but may reduce accuracy.
+* Tabular models may offer stronger interpretability than deep generative models.
+* Vision models must balance image accuracy with real-time inference needs.
+
+---
+
+## 🔹 Step 4 — Build Decision Matrix
+
+A professional decision matrix was created to compare the models side by side.
+
+The matrix helps identify which model is most suitable for different real-world AI projects.
+
+---
+
+## 🔹 Step 5 — Portfolio Integration
+
+The final artifact was designed for professional portfolio presentation and GitHub documentation.
+
+It demonstrates technical research, analytical thinking, AI model evaluation, and professional communication skills.
+
+---
+
+# 📊 AI Model Decision Matrix
+
+| Model                | Domain          | Model Size   | Accuracy          | Speed       | Explainability | Best Use Case                                        |
+| -------------------- | --------------- | ------------ | ----------------- | ----------- | -------------- | ---------------------------------------------------- |
+| 🟣 BERT Base         | NLP             | Large        | High              | Medium      | Medium         | Text classification, Q&A, sentiment analysis         |
+| 🔵 DistilBERT        | NLP             | Medium       | Good              | Fast        | Medium         | Lightweight NLP applications                         |
+| 🟢 MobileNetV2       | Computer Vision | Small        | Good              | Very Fast   | Medium         | Mobile apps, edge devices, real-time image tasks     |
+| 🟠 EfficientNet      | Computer Vision | Medium/Large | Very High         | Medium      | Medium         | High-quality image classification                    |
+| 🟡 TabNet / CatBoost | Tabular Data    | Medium       | Dataset Dependent | Medium/Fast | High           | Business prediction, structured data, explainable AI |
+
+---
+
+# 📌 Model Comparison Summary
+
+## 🟣 BERT Base
+
+BERT is a powerful NLP model designed for language understanding tasks. It performs well in text classification, question answering, and sentiment analysis.
+
+### Strengths
+
+* Strong language understanding
+* Good benchmark performance
+* Useful for many NLP applications
+* Widely supported in AI libraries
+
+### Limitations
+
+* Larger model size
+* Slower than lightweight NLP models
+* Requires more compute resources
+* Explainability is moderate, not fully transparent
+
+### Best Recommendation
+
+Use BERT when accuracy and language understanding are more important than speed.
+
+---
+
+## 🔵 DistilBERT
+
+DistilBERT is a smaller and faster version of BERT. It is useful when performance is still important but the system also needs better speed and efficiency.
+
+### Strengths
+
+* Faster than BERT
+* Smaller model size
+* Easier to deploy
+* Good performance for many NLP tasks
+
+### Limitations
+
+* Slightly less accurate than BERT
+* Still not fully explainable
+* May not perform as well on highly complex language tasks
+
+### Best Recommendation
+
+Use DistilBERT when building faster and lighter NLP applications.
+
+---
+
+## 🟢 MobileNetV2
+
+MobileNetV2 is designed for efficient computer vision tasks, especially on mobile and edge devices.
+
+### Strengths
+
+* Lightweight architecture
+* Very fast inference
+* Good for real-time applications
+* Suitable for mobile deployment
+
+### Limitations
+
+* May be less accurate than larger vision models
+* Not ideal for highly complex image tasks
+* Limited explainability
+
+### Best Recommendation
+
+Use MobileNetV2 for mobile apps, embedded systems, and real-time image classification.
+
+---
+
+## 🟠 EfficientNet
+
+EfficientNet is a high-performing computer vision model designed to balance accuracy and efficiency.
+
+### Strengths
+
+* Strong image classification performance
+* Better accuracy than many older CNN models
+* Efficient scaling approach
+* Useful for high-quality vision applications
+
+### Limitations
+
+* Larger versions require more compute power
+* May be slower than MobileNetV2
+* Explainability remains moderate
+
+### Best Recommendation
+
+Use EfficientNet when image accuracy is more important than ultra-fast speed.
+
+---
+
+## 🟡 TabNet / CatBoost
+
+TabNet and CatBoost are useful for structured data problems such as business analytics, fraud detection, customer prediction, and financial modeling.
+
+### Strengths
+
+* Strong for tabular datasets
+* More interpretable than many deep learning models
+* Useful for business decision-making
+* Can handle structured data effectively
+
+### Limitations
+
+* Performance depends heavily on dataset quality
+* May require feature engineering and tuning
+* Not suitable for image or language generation tasks
+
+### Best Recommendation
+
+Use TabNet or CatBoost for structured business data where explainability matters.
+
+---
+
+# ⚖️ Trade-Off Analysis
+
+<div align="center">
+
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png" width="120"/>
+
+</div>
+
+Model selection always requires balancing trade-offs.
+
+A model with the highest accuracy may not always be the best choice. In real-world projects, the best model depends on business needs, hardware limitations, response time requirements, and explainability expectations.
+
+## Key Trade-Offs Identified
+
+| Trade-Off                     | Explanation                                                                            |
+| ----------------------------- | -------------------------------------------------------------------------------------- |
+| Accuracy vs Speed             | Highly accurate models may be slower during inference                                  |
+| Size vs Deployment            | Smaller models are easier to deploy on mobile or edge devices                          |
+| Performance vs Cost           | Larger models may require expensive GPU infrastructure                                 |
+| Accuracy vs Explainability    | Complex models may be harder to interpret                                              |
+| Flexibility vs Specialization | General models work broadly, but specialized models may perform better in narrow tasks |
+
+---
+
+# 🧩 Application-Based Recommendations
+
+## 🗣️ NLP / Text Classification
+
+Recommended Model: **BERT Base or DistilBERT**
+
+Use BERT when accuracy is the main goal.
+Use DistilBERT when faster response time and lower resource usage are important.
+
+---
+
+## 💬 Generative AI / Conversational Systems
+
+Recommended Model: **GPT-style model**
+
+Use GPT-style models for chatbots, text generation, summarization, and content creation. These models are powerful but require careful monitoring for accuracy, bias, and hallucination risks.
+
+---
+
+## 👁️ Mobile Computer Vision
+
+Recommended Model: **MobileNetV2**
+
+Use MobileNetV2 for mobile applications, camera-based systems, and real-time image classification where speed matters.
+
+---
+
+## 🖼️ High-Accuracy Image Classification
+
+Recommended Model: **EfficientNet**
+
+Use EfficientNet when the goal is stronger image classification performance and the system can support moderate compute requirements.
+
+---
+
+## 📊 Business and Tabular Data
+
+Recommended Model: **TabNet or CatBoost**
+
+Use TabNet or CatBoost for structured data projects such as customer churn prediction, credit risk analysis, fraud detection, and operational forecasting.
+
+---
+
+# 💎 Value Proposition
+
+This portfolio artifact demonstrates my ability to:
+
+✨ Research AI and machine learning models
+✨ Compare technical model characteristics
+✨ Understand AI performance trade-offs
+✨ Evaluate explainability and deployment needs
+✨ Build professional decision-making artifacts
+✨ Present complex AI concepts in a clear and organized way
+
+This project shows that I can think beyond model accuracy and consider the complete AI development lifecycle.
+
+---
+
+# 🧠 Skills Demonstrated
+
+| Technical Skills          | Professional Skills        |
+| ------------------------- | -------------------------- |
+| AI Model Evaluation       | Analytical Thinking        |
+| Machine Learning Research | Technical Documentation    |
+| NLP Understanding         | Decision-Making            |
+| Computer Vision Concepts  | Professional Communication |
+| Tabular Data Modeling     | Problem Solving            |
+| Explainable AI Awareness  | Portfolio Development      |
+| GitHub Markdown           | Visual Presentation        |
+
+---
+
+# 🛠️ Tools and Technologies Used
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,github,vscode,git,html,css" />
+
+</div>
+
+---
+
+| Tool / Technology      | Purpose                   |
+| ---------------------- | ------------------------- |
+| GitHub                 | Portfolio hosting         |
+| Markdown               | README documentation      |
+| AI/ML Research Sources | Model comparison          |
+| VS Code                | Markdown editing          |
+| Python / ML Concepts   | Technical understanding   |
+| Decision Matrix        | Model evaluation          |
+| Portfolio Design       | Professional presentation |
+
+---
+
+# 📈 Portfolio Design Rationale
+
+This artifact was designed to be visually clear, professional, and easy to understand.
+
+The table-based decision matrix helps readers compare models quickly. Icons and badges improve visual appeal, while structured sections make the artifact easy to navigate.
+
+The design focuses on:
+
+* Clean presentation
+* Easy readability
+* Professional formatting
+* Strong comparison structure
+* Practical recommendations
+* Portfolio-ready documentation
+
+This artifact adds value to my professional portfolio by showing a different skill set from general AI concept summaries. It highlights model evaluation, trade-off analysis, and decision-making ability.
+
+---
+
+# 📚 Reflection
+
+While completing this artifact, I learned that AI model selection is not only about choosing the most powerful model.
+
+A successful AI solution must consider:
+
+* What problem is being solved
+* How much data is available
+* How fast the model must respond
+* What hardware is available
+* Whether the result must be explainable
+* How much cost the organization can support
+
+This project helped me understand how professionals evaluate models before deployment. It also improved my ability to compare technical options and communicate recommendations clearly.
+
+---
+
+# 🌐 Future Learning Goals
+
+<div align="center">
+
+<img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png" width="120"/>
+
+</div>
+
+## Areas I Plan to Learn Further
+
+* Advanced model benchmarking
+* Model compression and quantization
+* Responsible AI and explainability
+* AI deployment using cloud platforms
+* MLOps and model monitoring
+* Real-time inference optimization
+* Enterprise AI architecture
+
+---
+
+# 📬 Contact Information
+
+<div align="center">
+
+## 📧 Email
+
+### [marella.harishbabu@gmail.com](mailto:marella.harishbabu@gmail.com)
+
+---
+
+## 🌐 Professional Interests
+
+🤖 Artificial Intelligence
+🧠 Machine Learning
+📊 Data Analytics
+☁️ Cloud Computing
+💻 Software Development
+🧩 Explainable AI
+
+</div>
+
+---
+
+# 📚 References
+
+* Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.
+* Sanh, V., Debut, L., Chaumond, J., & Wolf, T. DistilBERT, a distilled version of BERT.
+* Sandler, M., Howard, A., Zhu, M., Zhmoginov, A., & Chen, L. C. MobileNetV2: Inverted Residuals and Linear Bottlenecks.
+* Tan, M., & Le, Q. EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks.
+* Arik, S. Ö., & Pfister, T. TabNet: Attentive Interpretable Tabular Learning.
+* Prokhorenkova, L., Gusev, G., Vorobev, A., Dorogush, A. V., & Gulin, A. CatBoost: Unbiased Boosting with Categorical Features.
+* Keras Applications Documentation.
+* Hugging Face Model Documentation.
+* TensorFlow Model Documentation.
+
+---
+
+<div align="center">
+
+# ⭐ Thank You for Visiting My Portfolio ⭐
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExenUycnQ3OHd0Z3Z5ZzQxbXNlOHdqY2ZqMWo1MGx5NzUzNmY1aGVrYyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26tn33aiTi1jkl6H6/giphy.gif" width="500"/>
+
+## 🚀 “The best AI model is not always the biggest model — it is the right model for the right problem.”
+
+</div>
